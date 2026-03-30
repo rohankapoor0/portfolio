@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Rohan Kapoor — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="bg" aria-hidden="true">
+        <div class="bg-grid"></div>
+        <div class="bg-breath"></div>
+        <div class="bg-blob bg-blob-1"></div>
+        <div class="bg-blob bg-blob-2"></div>
+        <div class="bg-noise"></div>
+      </div>
+
+      <header class="nav" role="navigation">
+        <div class="container nav-inner">
+          <div class="nav-brand">
+            <div class="logo-mark" aria-hidden="true">RK</div>
+            <div class="nav-brand-text">
+              <span class="nav-name">Rohan Kapoor</span>
+              <span class="nav-role">AI Engineer</span>
+            </div>
+          </div>
+
+          <nav class="nav-links" aria-label="Site sections">
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#research">Research</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#certs">Certs</a>
+            <a class="nav-link" href="#stack">Stack</a>
+          </nav>
+
+          <button class="btn btn-primary js-open-email" type="button">
+            <span class="btn-primary-text">Get in touch</span>
+            <span class="btn-primary-sheen" aria-hidden="true"></span>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="section hero" aria-label="Intro">
+          <div class="hero-grid">
+            <div class="hero-left" data-reveal="fade-up">
+              <div class="eyebrow">AI &amp; Machine Learning Engineer</div>
+              <h1 class="hero-title">
+                <span class="reveal-block">Rohan</span><br />
+                <span class="reveal-block hero-title-ital">Kapoor</span>
+              </h1>
+
+              <div class="hero-copy">
+                <p class="hero-lead">
+                  B.Tech student at Atlas University. Specializing in Artificial Intelligence and Machine Learning.
+                </p>
+                <p class="hero-sublead">
+                  Passionate about leveraging technology to address real-world issues through innovation in engineering and AI
+                  systems. Gold Medalist in National Cyber Olympiad and Content Creator with 10k+ subscribers.
+                </p>
+              </div>
+
+              <div class="hero-actions">
+                <div class="social-row" data-reveal="fade-up" data-reveal-delay="80">
+                  <a class="icon-link" href="https://github.com/rohankapoor0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S19.73 .65 19.2 .5c-.53-.15-1.05.25-1.28.47A17.9 17.9 0 0 0 12 2.5a17.9 17.9 0 0 0-5.92-1.53c-.23-.22-.75-.62-1.28-.47C4.27 .65 4.09 1 4 1.77A5.07 5.07 0 0 0 3.91 4.77 5.44 5.44 0 0 0 3 8.13c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8.5 17.5V21"/>
+                    </svg>
+                    <span class="sr-only">GitHub</span>
+                  </a>
+
+                  <a class="icon-link" href="https://www.linkedin.com/in/rohan-kapoor-420689314" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v2"/>
+                      <rect x="2" y="9" width="4" height="12"/>
+                      <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                    <span class="sr-only">LinkedIn</span>
+                  </a>
+                </div>
+
+                <div class="location" data-reveal="fade-up" data-reveal-delay="140">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                  Mumbai, India
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-right" data-reveal="zoom">
+              <div class="decor-frame" aria-hidden="true"></div>
+              <div class="pfp-wrap">
+                <img class="pfp" src="https://i.postimg.cc/XvbpxH9Z/PFP.jpg" alt="Rohan Kapoor" referrerpolicy="no-referrer" />
+                <div class="pfp-inset-ring" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="section" data-section>
+          <div class="section-grid">
+            <div class="section-head" data-reveal="fade-right">
+              <div class="section-title">Professional Experience</div>
+              <div class="section-subtitle">Sypha</div>
+            </div>
+
+            <div class="section-body" data-reveal="fade-left">
+              <div class="timeline-card">
+                <div class="timeline-marker" aria-hidden="true"></div>
+                <div class="timeline-period">Oct 2025 – Feb 2026</div>
+                <h3 class="card-title">Software Engineering Intern</h3>
+                <div class="card-company">Sypha | Mumbai</div>
+                <ul class="bullets">
+                  <li>Built AI-powered VS Code extension using Python and TypeScript</li>
+                  <li>Delivered context-aware code suggestions</li>
+                  <li>Benchmarked LLM scalability and compute cost</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="research" class="section" data-section>
+          <div class="section-grid">
+            <div class="section-head" data-reveal="fade-right">
+              <div class="section-title">Research</div>
+              <div class="section-subtitle">Social Media Analysis</div>
+            </div>
+
+            <div class="section-body" data-reveal="fade-left">
+              <div class="info-card">
+                <div class="info-card-head">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 15a4 4 0 0 1-4 4H7l-4 4V5a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>
+                    <path d="M7 8h10"/>
+                    <path d="M7 12h6"/>
+                  </svg>
+                  <h3 class="card-title">Impact of Social Media Algorithms</h3>
+                </div>
+                <p class="muted">
+                  Conducted research on how recommendation algorithms influence user behavior and content consumption patterns.
+                  Analyzed data from major platforms to identify sentiment trends and echo chamber effects.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Data Analysis</span>
+                  <span class="tag">Sentiment Analysis</span>
+                  <span class="tag">NLP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section" data-section>
+          <div class="section-standalone-head" data-reveal="fade-up">
+            <div class="section-title">Personal Experience</div>
+            <div class="section-subtitle">Projects &amp; Works</div>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card" data-reveal="card">
+              <div class="project-top">
+                <div class="project-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="3" y1="9" x2="21" y2="9"/>
+                    <line x1="3" y1="15" x2="21" y2="15"/>
+                  </svg>
+                </div>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 5 7 7-7 7"/>
+                </svg>
+              </div>
+              <h3 class="card-title">BuildWise</h3>
+              <p class="muted">
+                Hardware intelligence engine simulating CPU–GPU performance to predict FPS and detect bottlenecks.
+              </p>
+              <div class="tag-row">
+                <span class="tag tag-dark">Python</span>
+                <span class="tag tag-dark">Hardware AI</span>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal="card">
+              <div class="project-top">
+                <div class="project-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="3" y1="9" x2="21" y2="9"/>
+                    <line x1="3" y1="15" x2="21" y2="15"/>
+                  </svg>
+                </div>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 5 7 7-7 7"/>
+                </svg>
+              </div>
+              <h3 class="card-title">StreamLens</h3>
+              <p class="muted">
+                Context-aware movie recommendations based on mood, time of day, and social context.
+              </p>
+              <div class="tag-row">
+                <span class="tag tag-dark">AI</span>
+                <span class="tag tag-dark">Recommender</span>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal="card">
+              <div class="project-top">
+                <div class="project-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="3" y1="9" x2="21" y2="9"/>
+                    <line x1="3" y1="15" x2="21" y2="15"/>
+                  </svg>
+                </div>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 5 7 7-7 7"/>
+                </svg>
+              </div>
+              <h3 class="card-title">WithYou</h3>
+              <p class="muted">
+                iOS app built with SwiftUI helping neurodivergent users navigate social interactions through structured reflection.
+              </p>
+              <div class="tag-row">
+                <span class="tag tag-dark">SwiftUI</span>
+                <span class="tag tag-dark">iOS</span>
+                <span class="tag tag-dark">UX</span>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal="card">
+              <div class="project-top">
+                <div class="project-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="3" y1="9" x2="21" y2="9"/>
+                    <line x1="3" y1="15" x2="21" y2="15"/>
+                  </svg>
+                </div>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 5 7 7-7 7"/>
+                </svg>
+              </div>
+              <h3 class="card-title">AI Call Analyzer</h3>
+              <p class="muted">
+                Tool converting call audio into summaries and sentiment analysis.
+              </p>
+              <div class="tag-row">
+                <span class="tag tag-dark">AI</span>
+                <span class="tag tag-dark">NLP</span>
+              </div>
+            </article>
+
+            <article class="project-card" data-reveal="card">
+              <div class="project-top">
+                <div class="project-icon" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="3" y1="9" x2="21" y2="9"/>
+                    <line x1="3" y1="15" x2="21" y2="15"/>
+                  </svg>
+                </div>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 5 7 7-7 7"/>
+                </svg>
+              </div>
+              <h3 class="card-title">WebsyApp</h3>
+              <p class="muted">
+                AI app evaluating website trust signals.
+              </p>
+              <div class="tag-row">
+                <span class="tag tag-dark">React</span>
+                <span class="tag tag-dark">AI</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="certs" class="section section-certs" data-section>
+          <div class="container cert-inner">
+            <div class="section-center" data-reveal="fade-up">
+              <div class="section-title">Global Recognition</div>
+              <div class="section-subtitle">Certifications &amp; Awards</div>
+            </div>
+
+            <div class="certs-grid">
+              <div class="cert-card" data-reveal="card">
+                <div class="cert-badge" aria-hidden="true">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="3"/>
+                    <path d="M12 11v10"/>
+                    <path d="M7 20h10"/>
+                  </svg>
+                </div>
+                <div class="cert-name">Introduction to GenAI</div>
+                <div class="cert-issuer">Google</div>
+              </div>
+
+              <div class="cert-card" data-reveal="card">
+                <div class="cert-badge" aria-hidden="true">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="3"/>
+                    <path d="M12 11v10"/>
+                    <path d="M7 20h10"/>
+                  </svg>
+                </div>
+                <div class="cert-name">Prompt Engineering</div>
+                <div class="cert-issuer">Microsoft</div>
+              </div>
+
+              <div class="cert-card" data-reveal="card">
+                <div class="cert-badge" aria-hidden="true">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="3"/>
+                    <path d="M12 11v10"/>
+                    <path d="M7 20h10"/>
+                  </svg>
+                </div>
+                <div class="cert-name">ML Specialization</div>
+                <div class="cert-issuer">Coursera</div>
+              </div>
+
+              <div class="cert-card" data-reveal="card">
+                <div class="cert-badge" aria-hidden="true">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="3"/>
+                    <path d="M12 11v10"/>
+                    <path d="M7 20h10"/>
+                  </svg>
+                </div>
+                <div class="cert-name">Deep Learning</div>
+                <div class="cert-issuer">DeepLearning.AI</div>
+              </div>
+
+              <div class="cert-card" data-reveal="card">
+                <div class="cert-badge" aria-hidden="true">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="3"/>
+                    <path d="M12 11v10"/>
+                    <path d="M7 20h10"/>
+                  </svg>
+                </div>
+                <div class="cert-name">Cloud Computing</div>
+                <div class="cert-issuer">Google</div>
+              </div>
+
+              <div class="cert-card" data-reveal="card">
+                <div class="cert-badge" aria-hidden="true">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="3"/>
+                    <path d="M12 11v10"/>
+                    <path d="M7 20h10"/>
+                  </svg>
+                </div>
+                <div class="cert-name">Github Copilot</div>
+                <div class="cert-issuer">Microsoft</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="stack" class="section" data-section>
+          <div class="section-grid">
+            <div class="section-head section-stack-left" data-reveal="fade-right">
+              <div class="section-title">Stack</div>
+              <div class="section-subtitle">Skills &amp; Academic</div>
+
+              <div class="edu-block">
+                <div class="edu-period">2024 — 2028</div>
+                <h3 class="card-title">Atlas Skilltech University</h3>
+                <div class="edu-degree">B.Tech in Computer Science (AI &amp; ML)</div>
+              </div>
+            </div>
+
+            <div class="section-body" data-reveal="fade-left">
+              <div class="stack-grid">
+                <div class="box-card">
+                  <div class="box-title">Core Tech</div>
+                  <div class="tag-row tag-wrap">
+                    <span class="tag tag-dark">Python</span>
+                    <span class="tag tag-dark">Java</span>
+                    <span class="tag tag-dark">TypeScript</span>
+                    <span class="tag tag-dark">React</span>
+                    <span class="tag tag-dark">PyTorch</span>
+                    <span class="tag tag-dark">TensorFlow</span>
+                    <span class="tag tag-dark">Flask</span>
+                    <span class="tag tag-dark">Firebase</span>
+                  </div>
+                </div>
+
+                <div class="box-card">
+                  <div class="box-title">Specializations</div>
+                  <ul class="spec-list">
+                    <li>
+                      <span class="dot" aria-hidden="true"></span>
+                      Computer Vision &amp; NLP
+                    </li>
+                    <li>
+                      <span class="dot" aria-hidden="true"></span>
+                      Large Language Models
+                    </li>
+                    <li>
+                      <span class="dot" aria-hidden="true"></span>
+                      Predictive Analytics
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer" data-section>
+        <div class="container footer-inner">
+          <div class="footer-grid">
+            <div class="footer-left" data-reveal="fade-up">
+              <h2 class="footer-title">
+                Let's <br /><span class="footer-title-ital">connect.</span>
+              </h2>
+              <p class="footer-copy">
+                Currently looking for new opportunities and collaborations in AI and Software Engineering.
+              </p>
+            </div>
+
+            <div class="footer-right" data-reveal="fade-up" data-reveal-delay="80">
+              <div class="footer-links">
+                <button class="link-action js-open-email" type="button">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16v16H4z"/>
+                    <path d="m4 8 8 5 8-5"/>
+                  </svg>
+                  Email
+                </button>
+                <a class="link-action" href="https://www.linkedin.com/in/rohan-kapoor-420689314" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v2"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                  </svg>
+                  LinkedIn
+                </a>
+                <a class="link-action" href="https://github.com/rohankapoor0" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S19.73 .65 19.2 .5c-.53-.15-1.05.25-1.28.47A17.9 17.9 0 0 0 12 2.5a17.9 17.9 0 0 0-5.92-1.53c-.23-.22-.75-.62-1.28-.47C4.27 .65 4.09 1 4 1.77A5.07 5.07 0 0 0 3.91 4.77 5.44 5.44 0 0 0 3 8.13c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 8.5 17.5V21"/>
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+
+              <div class="footer-divider" aria-hidden="true"></div>
+              <div class="footer-copy-small">© 2026 Rohan Kapoor — Mumbai, IN</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="modal-overlay" id="emailModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-email aria-hidden="true"></div>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="emailTitle">
+          <button class="modal-close" type="button" data-close-email aria-label="Close email modal">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18"/>
+              <path d="M6 6l12 12"/>
+            </svg>
+          </button>
+
+          <h3 class="modal-title" id="emailTitle">Email</h3>
+          <div class="modal-content">
+            <div class="modal-icon" aria-hidden="true">
+              <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16v16H4z"/>
+                <path d="m4 8 8 5 8-5"/>
+              </svg>
+            </div>
+            <a class="modal-email" href="mailto:rohankapoor2460@gmail.com">rohankapoor2460@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
